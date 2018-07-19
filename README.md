@@ -55,6 +55,3 @@ http://youhost.site/rbac/assignment
 
 Раскоментируйте строку  19 в  /config/web.php
 обычному  пользевателю роль права "userAccess" назначаеться автоматом при регистрации
-# test
-# test
-# test
