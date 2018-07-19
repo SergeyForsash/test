@@ -16,7 +16,7 @@ $config = [
     'components' => [
       'authManager' => [
             'class' => 'yii\rbac\DbManager',
-            'defaultRoles' => ['user'],
+            //'defaultRoles' => ['user'],
         ],
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
@@ -72,20 +72,13 @@ $config = [
 
         'user' => [
             'class' => 'dektrium\user\Module',
-            //'layout' => 'left-menu',
             'layout' => '@app/views/layouts/main.php',
-          //  'enableUnconfirmedLogin' => true,
-          //  'confirmWithin' => 21600,
-          //  'cost' => 12,
             'admins' => ['admin','adams-ua']
           ],
           'rbac' => [
              'class' => 'mdm\admin\Module',
              'layout' => 'left-menu',
              'mainLayout' => '@app/views/layouts/main.php',
-           ],
-           'gridview' =>  [
-                   'class' => '\kartik\grid\Module'
            ],
     ],
     'as access' => [
