@@ -65,7 +65,7 @@ $config = [
         'user' => [
             'class' => 'dektrium\user\Module',
             'layout' => '@app/views/layouts/main.php',
-            'admins' => ['admin','adams-ua']
+            'admins' => ['admin']
           ],
           'rbac' => [
              'class' => 'mdm\admin\Module',
