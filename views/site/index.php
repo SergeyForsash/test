@@ -41,7 +41,7 @@ $this->title = 'Test Project';
 
       $ php yii migrate --migrationPath=@yii/rbac/migrations
 
-      Раскоментируйте строку  95 в  /config/web.php
+      Раскоментируйте строку  81 в  /config/web.php
     </pre>
   </div>
   <div id="step2" class="tab-pane fade">
@@ -71,7 +71,7 @@ $this->title = 'Test Project';
       http://youhost.site/rbac/assignment
       и назначте  вашему пользевателю роль "adminAccess"
 
-      Закоментируйте строку  95 в  /config/web.php
+      Закоментируйте строку  81 в  /config/web.php
     </pre>
   </div>
   <div id="step4" class="tab-pane fade">
