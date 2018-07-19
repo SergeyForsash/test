@@ -80,17 +80,7 @@ $config = [
             'user/*',
             //'rbac/*',
 
-    ]
-    ],
-    'controllerMap' => [
-      'elfinder' => [
-      'class' => 'mihaildev\elfinder\PathController',
-      'access' => ['@'],
-        'root' => [
-              'path' => 'uploads',
-              'name' => 'Files'
-              ],
-         ]
+        ]
     ],
     'params' => $params,
 ];
