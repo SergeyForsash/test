@@ -18,7 +18,7 @@ $ php yii migrate --migrationPath=@mdm/admin/migrations
 
 $ php yii migrate --migrationPath=@yii/rbac/migrations
 
-Раскоментируйте строку  95 в  /config/web.php
+Раскоментируйте строку  81 в  /config/web.php
 
 Перейдите по адресу
 http://youhost.site/rbac/route
@@ -39,7 +39,7 @@ http://youhost.site/user/registration/register
 http://youhost.site/rbac/assignment
 и назначте  вашему пользевателю роль "adminAccess"
 
-Закоментируйте строку  95 в  /config/web.php
+Закоментируйте строку  81 в  /config/web.php
 
 аналогично можно создать    пользеваателя  с правами  менеджера
 
