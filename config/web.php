@@ -40,14 +40,6 @@ $config = [
         'mailer' => [
             'class' => 'yii\swiftmailer\Mailer',
             'useFileTransport' => false,
-            'transport' => [
-                'class' => 'Swift_SmtpTransport',
-                'host' => 'smtp.gmail.com',
-                'username' => 'adams.test.pro@gmail.com',
-                'password' => 'root-admin123456',
-                'port' => 465,
-                'encryption' => 'ssl',
-                ],
         ],
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,
